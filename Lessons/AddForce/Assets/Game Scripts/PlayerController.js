@@ -1,7 +1,7 @@
 var moveForce : float;
 var jumpForce : float;
 
-function Update() {
+function FixedUpdate() {
 	var move : Vector3 =
 	  Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 	move = move.normalized * moveForce;
