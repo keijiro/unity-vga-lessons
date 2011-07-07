@@ -4,24 +4,32 @@ var gravity : float = 20.0;
 
 private var moveDirection : Vector3;
 private var prevGrounded : boolean;
-private var isFinish : boolean;
-
-function OnTriggerEnter(other : Collider) {
-	if (other.gameObject.tag == "Finish") {
-		isFinish = true;
-	}
-}
+private var finished : boolean;
 
 function Start() {
 	animation["Punch"].wrapMode = WrapMode.Once;
 	animation["Punch"].layer = 1;
 }
 
+function RotateCharacter(direction : Vector3) {
+	direction.y = 0.0;
+	if (direction.magnitude < 0.1) return;
+	var rotation = Quaternion.LookRotation(direction);
+	transform.localRotation =
+      Quaternion.Slerp(rotation, transform.localRotation, Mathf.Exp(-10.0 * Time.deltaTime));
+}
+
+function OnTriggerEnter(other : Collider) {
+	if (other.gameObject.tag == "Finish") {
+		finished = true;
+	}
+}
+
 function Update() {
     var controller : CharacterController = GetComponent(CharacterController);
     
-    if (isFinish && controller.isGrounded) {
-    	transform.rotation = Quaternion.AngleAxis(180, Vector3.up);
+    if (finished && controller.isGrounded) {
+    	RotateCharacter(-Vector3.forward);
     	animation.Play("Greet");
     	return;
     }
@@ -36,13 +44,11 @@ function Update() {
     	} else if (Input.GetButton ("Jump")) {
             moveDirection.y = jumpSpeed;
             animation.Play("Jump");
-        } else if (Input.GetButton("Fire1")) {
-        	animation.CrossFade("Punch", 0.1);
         } else {
 		    var direction : Vector3 = moveDirection;
     		direction.y = 0.0;
     		if (direction.magnitude > 0.33) {
-	    		transform.LookAt(transform.position + direction);
+    			RotateCharacter(controller.velocity);
             	animation.CrossFade("Walk");
     		} else {
             	animation.CrossFade("Idle");
