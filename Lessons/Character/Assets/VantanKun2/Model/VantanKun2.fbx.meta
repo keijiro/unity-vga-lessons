@@ -1,5 +1,5 @@
 fileFormatVersion: 1
-guid: 9a64f519a0360434a86bcddae3ebd970
+guid: cfbfe9c1b23ed4708b840b812648fee4
 ModelImporter:
   importerVersion: 7
   meshes:
@@ -22,56 +22,56 @@ ModelImporter:
     animationWrapMode: 2
     splitAnimations: 1
   nodeInfo:
-    Left Shoulder:
+    Right Knee:
     - 100000
     - 400000
-    Right Hand:
+    Left Foot:
     - 100002
     - 400002
-    Left Hand:
+    Right Foot:
     - 100004
     - 400004
-    Left Waist:
+    Head:
     - 100006
     - 400006
-    Right Elbow:
+    Right Waist:
     - 100008
     - 400008
-    Left Foot:
+    Right Elbow:
     - 100010
     - 400010
-    Head:
+    Left Knee:
     - 100012
     - 400012
-    Right Knee:
+    Left Waist:
     - 100014
     - 400014
-    Left Knee:
+    Left Hand:
     - 100016
     - 400016
-    Right Foot:
+    Right Hand:
     - 100018
     - 400018
-    Right Waist:
+    Left Shoulder:
     - 100020
     - 400020
-    Pelvis:
+    Right Shoulder:
     - 100022
     - 400022
-    - 13700000
-    Right Shoulder:
+    //RootNode:
     - 100024
     - 400024
-    //RootNode:
+    - 11100000
+    Left Elbow:
     - 100026
     - 400026
-    - 11100000
     Spine:
     - 100028
     - 400028
-    Left Elbow:
+    Pelvis:
     - 100030
     - 400030
+    - 13700000
 AssetImporter:
   importerVersion: 1
   fileIDToRecycleName:
