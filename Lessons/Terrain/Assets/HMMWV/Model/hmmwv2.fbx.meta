@@ -1,0 +1,129 @@
+fileFormatVersion: 1
+guid: 936c84494f83b4f09a8bdc3caf02a673
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 0
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    node-Humvee:
+    - 100000
+    - 400000
+    geom-HVtireFR_1:
+    - 100002
+    - 400002
+    - 3300000
+    - 2300000
+    geom-Humvee:
+    - 100004
+    - 400004
+    - 3300002
+    - 2300002
+    matrixTransform_3:
+    - 100006
+    - 400006
+    geom-HVtireRL_1:
+    - 100008
+    - 400008
+    - 3300004
+    - 2300004
+    geom-HVtireFR:
+    - 100010
+    - 400010
+    - 3300006
+    - 2300006
+    geom-HVtireRL:
+    - 100012
+    - 400012
+    - 3300008
+    - 2300008
+    node-HVtireFR:
+    - 100014
+    - 400014
+    geom-HVtireRR:
+    - 100016
+    - 400016
+    - 3300010
+    - 2300010
+    node-HVtireRL:
+    - 100018
+    - 400018
+    matrixTransform_2:
+    - 100020
+    - 400020
+    Collada_visual_scene_group 1:
+    - 100022
+    - 400022
+    group:
+    - 100024
+    - 400024
+    EnvironmentAmbientLight-ambient:
+    - 100026
+    - 400026
+    node-HVtireFL:
+    - 100028
+    - 400028
+    sceneRoot:
+    - 100030
+    - 400030
+    group_1:
+    - 100032
+    - 400032
+    Collada_visual_scene_group:
+    - 100034
+    - 400034
+    //RootNode:
+    - 100036
+    - 400036
+    geom-HVtireFL:
+    - 100038
+    - 400038
+    - 3300012
+    - 2300012
+    node-HVtireRR:
+    - 100040
+    - 400040
+    matrixTransform:
+    - 100042
+    - 400042
+    matrixTransform_1:
+    - 100044
+    - 400044
+    geom-HVtireRR_1:
+    - 100046
+    - 400046
+    - 3300014
+    - 2300014
+    geom-HVtireFL_1:
+    - 100048
+    - 400048
+    - 3300016
+    - 2300016
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: geom-HVtireFL
+    4300002: geom-HVtireFL_1
+    4300004: geom-HVtireRR
+    4300006: geom-HVtireRR_1
+    4300008: geom-HVtireRL
+    4300010: geom-HVtireRL_1
+    4300012: geom-HVtireFR
+    4300014: geom-HVtireFR_1
+    4300016: geom-Humvee
