@@ -1,0 +1,84 @@
+fileFormatVersion: 1
+guid: 7a3c13096502f44c38d3ac868471f71e
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.01
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    Right Knee:
+    - 100000
+    - 400000
+    Right Foot:
+    - 100002
+    - 400002
+    Left Waist:
+    - 100004
+    - 400004
+    Left Foot:
+    - 100006
+    - 400006
+    Right Waist:
+    - 100008
+    - 400008
+    Right Hand:
+    - 100010
+    - 400010
+    Left Knee:
+    - 100012
+    - 400012
+    Right Shoulder:
+    - 100014
+    - 400014
+    Head:
+    - 100016
+    - 400016
+    Left Elbow:
+    - 100018
+    - 400018
+    Right Elbow:
+    - 100020
+    - 400020
+    Spine:
+    - 100022
+    - 400022
+    Left Hand:
+    - 100024
+    - 400024
+    //RootNode:
+    - 100026
+    - 400026
+    - 11100000
+    Left Shoulder:
+    - 100028
+    - 400028
+    Pelvis:
+    - 100030
+    - 400030
+    - 13700000
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Character
+    7400000: Walk //// VantanKun2
+    7400002: Idle //// VantanKun2
+    7400004: Greet //// VantanKun2
+    7400006: Jump //// VantanKun2
+    7400008: Crouch //// VantanKun2
+    7400010: Punch //// VantanKun2
