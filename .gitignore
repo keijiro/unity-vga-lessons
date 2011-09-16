@@ -1,8 +1,6 @@
 .DS_Store
-*/*/Library/*
-*/*/Temp
-*/*/*/Library/*
-*/*/*/Temp
+*/Library/*
+*/Temp
 !EditorBuildSettings.asset
 !InputManager.asset
 !ProjectSettings.asset
