@@ -1,1 +1,3 @@
-Some rights reserved. For private use only.
+### このリポジトリは
+
+VGAにおけるUnityの講義で利用するプロジェクトを管理するためのリポジトリです。
